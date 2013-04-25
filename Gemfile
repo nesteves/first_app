@@ -27,6 +27,11 @@ gem 'turbolinks', '1.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
 
+# Production environment assets
+group :production do
+  gem 'pg', '0.14.1'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
